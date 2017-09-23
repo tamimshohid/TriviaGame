@@ -1,0 +1,32 @@
+
+
+#container{
+	background-image: url("nfl1.jpg");
+	width:80%;
+	height:600px;
+	margin:auto;
+	margin-top:25px;
+	padding:30px;
+	border:solid black;
+	color: #2fd472;
+}
+#title{
+	text-align: center;
+}
+#start{
+	position:absolute; 
+   margin-left:-100px;
+   left:50%;
+   width:200px;
+   bottom:400px;
+}
+.container{
+	text-align:center;
+	
+
+}
+
+#Submit{
+
+	color: #ff0000;
+}

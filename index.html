@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="Assets/css/style.css">
+	
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	
+
+
+
+<title>Trivia</title>
+</head>
+<body>
+
+
+<div id="container">
+
+<div id="title"><h1>NFL Trivia</h1></div>
+<div id="start">
+	  <button type="button" class="btn btn-primary btn-lg">Click to Begin</button>
+</div>
+<div class="container">
+	<h2>Time Remaining</h2>
+	<div id="timer">:60</div>
+</div>
+<form name="quiz">
+	<ul id="slides">
+
+	<li id="first">Which team won the Super Bowl in 2016?</li>
+	<input type="radio" name="firstA" id="answers" value="A"/>NY Giants
+	<input type="radio" name="firstA" id="answers" value="B"/>NE Patriots
+	<input type="radio" name="firstA" id="answers" value="C"/>Dal Cowboys
+	<input type="radio" name="firstA" id="answers" value="D"/>Denver Broncos
+	</ul>
+
+	<ul id="slides">
+	<li id="second">Name the most recent Superbowl winner Quarterback for NY Giants?</li>
+	<input type="radio" name="secondA" id="answers" value="A"/>Eli Manning
+	<input type="radio" name="secondA" id="answers" value="B"/>Tom Brady
+	<input type="radio" name="secondA" id="answers" value="C"/>Jay Cutler
+	<input type="radio" name="secondA" id="answers" value="D"/>Micheal Vick
+	</ul>
+
+	<ul id="slides">
+	<li id="third">What city is home of Broncos</li>
+	<input type="radio" name="thirdA" id="answers" value="A"/>Dallas
+	<input type="radio" name="thirdA" id="answers" value="B"/>Montana
+	<input type="radio" name="thirdA" id="answers" value="C"/>Denver
+	<input type="radio" name="thirdA" id="answers" value="D"/>Florida
+	</ul>
+
+	<ul id="slides">
+	<li id="fourth">How many quarters in a football game? </li>
+	<input type="radio" name="fourthA"  id="answers" value="A"/>2
+	<input type="radio" name="fourthA" id="answers" value="B"/>4
+	<input type="radio" name="fourthA" id="answers" value="C"/>3
+	<input type="radio" name="fourthA" id="answers" value="D"/>1
+	</ul>
+
+	<ul id="slides">
+	<li id="fifth">Who led the NFL in rushing yards in 2016? </li>
+	<input type="radio" name="fifthA" id="answers" value="A"/>Le'veon Bell
+	<input type="radio" name="fifthA" id="answers" value="B"/>Ezekiel Elliott
+	<input type="radio" name="fifthA" id="answers" value="C"/>David Johnson
+	<input type="radio" name="fifthA" id="answers" value="D"/>Demarco Murray
+	</ul>
+
+	
+	</form>
+	
+
+	<div>
+		<button type="button" id="submit">Submit Answers</button>
+		<button type="button" id="reset">Play Again</button>
+	</div>
+
+
+
+
+ <script type="text/javascript" src="Assets/javascript/app.js"></script> 
+
+</body>
+</html>
